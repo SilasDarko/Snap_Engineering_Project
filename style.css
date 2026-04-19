@@ -19,7 +19,8 @@ body {
 }
 
 #filter-container {
-  margin: 16px 20px;
+  width: 60%;
+  margin: 16px auto;
 }
 
 #category-filter {
@@ -32,9 +33,21 @@ body {
 
 #card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 16px;
-  margin: 20px;
+  width: 60%;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  #filter-container,
+  #card-container {
+    width: 95%;
+  }
+
+  #card-container {
+    grid-template-columns: 1fr;
+  }
 }
 
 .card {
