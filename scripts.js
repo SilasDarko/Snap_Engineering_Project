@@ -23,45 +23,35 @@
  *
  */
 
-const FRESH_PRINCE_URL =
-  "https://upload.wikimedia.org/wikipedia/en/3/33/Fresh_Prince_S1_DVD.jpg";
-const CURB_POSTER_URL =
-  "https://m.media-amazon.com/images/M/MV5BZDY1ZGM4OGItMWMyNS00MDAyLWE2Y2MtZTFhMTU0MGI5ZDFlXkEyXkFqcGdeQXVyMDc5ODIzMw@@._V1_FMjpg_UX1000_.jpg";
-const EAST_LOS_HIGH_POSTER_URL =
-  "https://static.wikia.nocookie.net/hulu/images/6/64/East_Los_High.jpg";
 
-// This is an array of strings (TV show titles)
-let titles = [
-  "Fresh Prince of Bel Air",
-  "Curb Your Enthusiasm",
-  "East Los High",
-];
-// Your final submission should have much more data than this, and
-// you should use more than just an array of strings to store it all.
+// import adinkra symbols
 
-// This function adds cards the page to display the data in the array
-function showCards() {
+async function getSymbols() {
+  const res = await fetch("src/data/adinkraSymbols.json")
+  return await res.json()
+}
+
+async function getImages() {
+  const res = await fetch("src/data/adinkraImages.json")
+  return await res.json()
+}
+
+async function buildData() {
+  const symbols = await getSymbols()
+  showCards(symbols)
+}
+
+buildData()
+
+function showCards(symbols) {
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
   const templateCard = document.querySelector(".card");
 
-  for (let i = 0; i < titles.length; i++) {
-    let title = titles[i];
-
-    // This part of the code doesn't scale very well! After you add your
-    // own data, you'll need to do something totally different here.
-    let imageURL = "";
-    if (i == 0) {
-      imageURL = FRESH_PRINCE_URL;
-    } else if (i == 1) {
-      imageURL = CURB_POSTER_URL;
-    } else if (i == 2) {
-      imageURL = EAST_LOS_HIGH_POSTER_URL;
-    }
-
-    const nextCard = templateCard.cloneNode(true); // Copy the template card
-    editCardContent(nextCard, title, imageURL); // Edit title and image
-    cardContainer.appendChild(nextCard); // Add new card to the container
+  for (const symbol of Object.values(symbols)) {
+    const nextCard = templateCard.cloneNode(true);
+    editCardContent(nextCard, symbol.name, "src/symbols/" + symbol.image);
+    cardContainer.appendChild(nextCard);
   }
 }
 
@@ -81,8 +71,7 @@ function editCardContent(card, newTitle, newImageURL) {
   console.log("new card:", newTitle, "- html: ", card);
 }
 
-// This calls the addCards() function when the page is first loaded
-document.addEventListener("DOMContentLoaded", showCards);
+document.addEventListener("DOMContentLoaded", buildData);
 
 function quoteAlert() {
   console.log("Button Clicked!");
