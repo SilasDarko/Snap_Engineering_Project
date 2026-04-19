@@ -64,6 +64,8 @@ function editCardContent(card, newTitle, newImageURL, description, proverb, cate
   const cardImage = card.querySelector("img");
   cardImage.src = newImageURL;
   cardImage.alt = newTitle + " Poster";
+  
+  card.querySelector(".country-flag").textContent = countryFlag;
 
   const listItems = card.querySelectorAll("li");
   listItems[0].textContent = description;
