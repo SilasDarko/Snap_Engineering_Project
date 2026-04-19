@@ -2,7 +2,7 @@
   "adinkrahene": {
     "name": "Adinkrahene",
     "image": "adinkrahene.gif",
-    "category": "Leadership & Greatness",
+    "category": "Leadership & Character",
     "description": "Chief of the Adinkra symbols; symbol of greatness, charisma and leadership. Said to have inspired the design of the other Adinkra symbols.",
     "proverb": "Adinkrahene — 'the chief of Adinkra symbols'.",
     "countryFlag": "🇬🇭",
@@ -11,7 +11,7 @@
   "akoben": {
     "name": "Akoben",
     "image": "akoben.gif",
-    "category": "Courage & Vigilance",
+    "category": "Courage & Strength",
     "description": "Symbol of vigilance and wariness. Akoben is a war horn used to rally troops to battle — a call to action and readiness.",
     "proverb": "The horn that calls the warriors to duty.",
     "countryFlag": "🇬🇭",
@@ -20,7 +20,7 @@
   "akofena": {
     "name": "Akofena",
     "image": "akofena.gif",
-    "category": "Courage & Valor",
+    "category": "Courage & Strength",
     "description": "Symbol of courage, valor and heroism. Crossed state swords used in oath-swearing and as emblems of legitimate state authority.",
     "proverb": "The sword of war — courage in the service of a just cause.",
     "countryFlag": "🇬🇭",
@@ -29,7 +29,7 @@
   "akoko-nan": {
     "name": "Akoko Nan",
     "image": "akoko-nan.gif",
-    "category": "Parenthood & Discipline",
+    "category": "Unity & Community",
     "description": "Symbol of mercy, nurturing and firm-but-fair parenting. The hen may tread on her chicks, but she does not kill them.",
     "proverb": "Akoko nan tia ba na enkum ba — 'the hen's foot steps on the chick but does not crush it'.",
     "countryFlag": "🇬🇭",
@@ -38,7 +38,7 @@
   "akoma-ntoso": {
     "name": "Akoma Ntoso",
     "image": "akoma-ntoso.gif",
-    "category": "Unity & Agreement",
+    "category": "Unity & Community",
     "description": "Symbol of understanding and agreement — 'linked hearts'. Represents the harmony of a community in accord.",
     "proverb": "Hearts joined as one.",
     "countryFlag": "🇬🇭",
@@ -47,7 +47,7 @@
   "akoma": {
     "name": "Akoma",
     "image": "akoma.gif",
-    "category": "Virtues & Character",
+    "category": "Leadership & Character",
     "description": "Symbol of patience, love, endurance, goodwill, faithfulness and tolerance — literally, 'the heart'. 'Take heart' is a common Akan expression of forbearance.",
     "proverb": "Nya akoma — 'have a heart; be patient'.",
     "countryFlag": "🇬🇭",
@@ -56,7 +56,7 @@
   "ananse-ntontan": {
     "name": "Ananse Ntontan",
     "image": "ananse-ntontan.gif",
-    "category": "Wisdom & Creativity",
+    "category": "Wisdom",
     "description": "The spider's web — symbol of wisdom, creativity and the complexities of life. Named after Kwaku Ananse, the legendary spider-trickster of Akan folklore.",
     "proverb": "The web of the wise spider catches everything.",
     "countryFlag": "🇬🇭",
@@ -65,7 +65,7 @@
   "asase-ye-duru": {
     "name": "Asase Ye Duru",
     "image": "asase-ye-duru.gif",
-    "category": "Earth & Providence",
+    "category": "Life & Caution",
     "description": "'The Earth has weight' — symbol of the divinity of Mother Earth, her power to sustain life, and the importance of the land to the people who live on it.",
     "proverb": "Asase ye duru sen po — 'the Earth is heavier than the sea'.",
     "countryFlag": "🇬🇭",
@@ -74,7 +74,7 @@
   "aya": {
     "name": "Aya",
     "image": "aya.gif",
-    "category": "Endurance & Independence",
+    "category": "Courage & Strength",
     "description": "The fern — symbol of endurance, resourcefulness, defiance and independence. One who wears Aya says, 'I have endured hardships and outlasted my adversaries.'",
     "proverb": "I am not afraid of you; I can thrive where little else does.",
     "countryFlag": "🇬🇭",
@@ -83,7 +83,7 @@
   "bese-saka": {
     "name": "Bese Saka",
     "image": "bese-saka.gif",
-    "category": "Abundance & Unity",
+    "category": "Unity & Community",
     "description": "'A sack of cola nuts' — symbol of affluence, plenty, abundance and togetherness. Cola nuts were historically an important cash crop and ceremonial gift in Akan society.",
     "proverb": "Where many cola nuts are gathered, many hands have worked.",
     "countryFlag": "🇬🇭",
@@ -92,7 +92,7 @@
   "bi-nka-bi": {
     "name": "Bi Nka Bi",
     "image": "bi-nka-bi.gif",
-    "category": "Peace & Harmony",
+    "category": "Life & Caution",
     "description": "'No one should bite another' — symbol of peace, harmony and the avoidance of conflict, provocation and strife.",
     "proverb": "Bi nka bi — 'do not bite one another'.",
     "countryFlag": "🇬🇭",
@@ -101,7 +101,7 @@
   "boa-me-na-me-mmoa-wo": {
     "name": "Boa Me Na Me Mmoa Wo",
     "image": "boa-me-na-me-mmoa-wo.gif",
-    "category": "Cooperation & Interdependence",
+    "category": "Unity & Community",
     "description": "'Help me and let me help you' — symbol of cooperation and interdependence. A reminder that community is built on mutual aid.",
     "proverb": "Boa me na me mmoa wo — 'help me so that I may help you'.",
     "countryFlag": "🇬🇭",
@@ -110,7 +110,7 @@
   "dame-dame": {
     "name": "Dame Dame",
     "image": "dame-dame.gif",
-    "category": "Wisdom & Strategy",
+    "category": "Wisdom",
     "description": "Named after the board game 'dame-dame' (similar to draughts/checkers) — symbol of intelligence, strategy and ingenuity.",
     "proverb": "The wise move is planned many steps ahead.",
     "countryFlag": "🇬🇭",
@@ -119,7 +119,7 @@
   "denkyem": {
     "name": "Denkyem",
     "image": "denkyem.gif",
-    "category": "Adaptability",
+    "category": "Life & Caution",
     "description": "The crocodile — symbol of adaptability and cleverness. It lives in water yet breathes air, demonstrating the ability to thrive in changing environments.",
     "proverb": "Denkyem da nsu mu nanso ohome mframa — 'the crocodile lives in water yet breathes air'.",
     "countryFlag": "🇬🇭",
@@ -128,7 +128,7 @@
   "duafe": {
     "name": "Duafe",
     "image": "duafe.gif",
-    "category": "Beauty & Femininity",
+    "category": "Life & Caution",
     "description": "The wooden comb — symbol of beauty, cleanliness, love and feminine qualities. Prized as a personal, carefully-crafted tool of grooming.",
     "proverb": "Duafe — that which makes one beautiful.",
     "countryFlag": "🇬🇭",
@@ -137,7 +137,7 @@
   "dwennimmen": {
     "name": "Dwennimmen",
     "image": "dwennimmen.gif",
-    "category": "Humility & Strength",
+    "category": "Courage & Strength",
     "description": "'Ram's horns' — symbol of humility together with strength. Even the strong should be humble; the ram is powerful but submits to slaughter without fighting back.",
     "proverb": "Dwennimmen — strength exercised with humility.",
     "countryFlag": "🇬🇭",
@@ -146,7 +146,7 @@
   "eban": {
     "name": "Eban",
     "image": "eban.gif",
-    "category": "Love & Security",
+    "category": "Love & Relationships",
     "description": "'Fence' — symbol of love, safety and security. The home, fenced by love, is the safest place.",
     "proverb": "The fence of love guards the home.",
     "countryFlag": "🇬🇭",
@@ -155,7 +155,7 @@
   "epa": {
     "name": "Epa",
     "image": "epa.gif",
-    "category": "Justice & Law",
+    "category": "Life & Caution",
     "description": "Handcuffs — symbol of law, justice and captivity. A reminder that the law binds both the wrongdoer and the one who enforces it.",
     "proverb": "Onii a ɔde epa no, ɔno ara na epa no kyere no — 'he who puts the handcuffs on, the handcuffs also hold'.",
     "countryFlag": "🇬🇭",
@@ -164,7 +164,7 @@
   "ese-ne-tekrema": {
     "name": "Ese Ne Tekrema",
     "image": "ese-ne-tekrema.gif",
-    "category": "Friendship & Interdependence",
+    "category": "Love & Relationships",
     "description": "'The teeth and the tongue' — symbol of friendship and interdependence. Even the closest companions quarrel, but they cannot do without one another.",
     "proverb": "Ese ne tekrema — teeth and tongue must work together.",
     "countryFlag": "🇬🇭",
@@ -173,7 +173,7 @@
   "fawohodie": {
     "name": "Fawohodie",
     "image": "fawohodie.gif",
-    "category": "Freedom & Independence",
+    "category": "Life & Caution",
     "description": "'Independence' — symbol of freedom and emancipation. Expresses a longing and a right to self-determination.",
     "proverb": "Fawohodie ene obre na enam — 'independence comes with responsibilities'.",
     "countryFlag": "🇬🇭",
@@ -182,7 +182,7 @@
   "fihankra": {
     "name": "Fihankra",
     "image": "fihankra.gif",
-    "category": "Security & Brotherhood",
+    "category": "Unity & Community",
     "description": "The traditional Akan compound house — symbol of security, safety and solidarity. The compound encloses a family and keeps them safe together.",
     "proverb": "A house with many rooms still has one roof.",
     "countryFlag": "🇬🇭",
@@ -191,7 +191,7 @@
   "fofo": {
     "name": "Fofo",
     "image": "fofo.gif",
-    "category": "Warning & Caution",
+    "category": "Life & Caution",
     "description": "The seeds of the fofo plant that stick to passing cloth — symbol of a warning against jealousy and covetousness. 'What fofo wants, fofo gets.'",
     "proverb": "De fofo pe ne se gyinantwi aba ho — 'what fofo wants, it clings to'.",
     "countryFlag": "🇬🇭",
@@ -200,7 +200,7 @@
   "funtunfunefu-denkyemfunefu": {
     "name": "Funtunfunefu Denkyemfunefu",
     "image": "funtunfunefu-denkyemfunefu.gif",
-    "category": "Unity in Diversity",
+    "category": "Unity & Community",
     "description": "'Siamese crocodiles' — symbol of democracy and unity in diversity. Two crocodiles share a single stomach yet fight over food, a warning against selfish division.",
     "proverb": "We share one stomach, yet we fight when we eat.",
     "countryFlag": "🇬🇭",
@@ -218,7 +218,7 @@
   "hwe-mu-dua": {
     "name": "Hwe Mu Dua",
     "image": "hwe-mu-dua.gif",
-    "category": "Excellence & Quality",
+    "category": "Leadership & Character",
     "description": "'Measuring stick' — symbol of examination, quality control and the pursuit of the best possible standard.",
     "proverb": "Measure twice; build once.",
     "countryFlag": "🇬🇭",
@@ -227,7 +227,7 @@
   "hye-won-hye": {
     "name": "Hye Won Hye",
     "image": "hye-won-hye.gif",
-    "category": "Endurance & Imperishability",
+    "category": "Courage & Strength",
     "description": "'That which does not burn' — symbol of imperishability, toughness and endurance. Reflects the idea that some things cannot be destroyed, no matter what.",
     "proverb": "Hye won hye — 'that which burns not'.",
     "countryFlag": "🇬🇭",
@@ -236,7 +236,7 @@
   "kete-pa": {
     "name": "Kete Pa",
     "image": "kete-pa.gif",
-    "category": "Love & Marriage",
+    "category": "Love & Relationships",
     "description": "'A good bed' — symbol of a good marriage. A well-made bed is an image of a stable, loving union.",
     "proverb": "A good bed makes a peaceful home.",
     "countryFlag": "🇬🇭",
@@ -245,7 +245,7 @@
   "kintinkantan": {
     "name": "Kintinkantan",
     "image": "kintinkantan.gif",
-    "category": "Warning & Caution",
+    "category": "Life & Caution",
     "description": "'Puffed-up extravagance' — symbol against arrogance, presumption and vanity. A reminder not to be proud or boastful of wealth and position.",
     "proverb": "Do not puff yourself up; humility outlives pride.",
     "countryFlag": "🇬🇭",
@@ -254,7 +254,7 @@
   "kwatakye-atiko": {
     "name": "Kwatakye Atiko",
     "image": "kwatakye-atiko.gif",
-    "category": "Courage & Valor",
+    "category": "Courage & Strength",
     "description": "The hairstyle worn by Kwatakye, a legendary war captain — symbol of bravery and valor in war.",
     "proverb": "The brave wear their courage like a crown.",
     "countryFlag": "🇬🇭",
@@ -263,7 +263,7 @@
   "mate-masie": {
     "name": "Mate Masie",
     "image": "mate-masie.gif",
-    "category": "Wisdom & Knowledge",
+    "category": "Wisdom",
     "description": "'What I hear, I keep' — symbol of wisdom, knowledge and prudence. Represents the value of listening well and retaining what is taught.",
     "proverb": "Mate masie — 'I have heard and kept it'.",
     "countryFlag": "🇬🇭",
@@ -272,7 +272,7 @@
   "me-ware-wo": {
     "name": "Me Ware Wo",
     "image": "me-ware-wo.gif",
-    "category": "Love & Commitment",
+    "category": "Love & Relationships",
     "description": "'I shall marry you' — symbol of commitment, perseverance and the bond of marriage.",
     "proverb": "Me ware wo — 'I will marry you', spoken as a lifelong promise.",
     "countryFlag": "🇬🇭",
@@ -281,7 +281,7 @@
   "mframadan": {
     "name": "Mframadan",
     "image": "mframadan.gif",
-    "category": "Fortitude & Resilience",
+    "category": "Courage & Strength",
     "description": "'Wind-resistant house' — symbol of fortitude, preparedness and the ability to withstand hardship. A house built to weather any storm.",
     "proverb": "A house that stands in the wind stands forever.",
     "countryFlag": "🇬🇭",
@@ -290,7 +290,7 @@
   "mmere-dane": {
     "name": "Mmere Dane",
     "image": "mmere-dane.gif",
-    "category": "Change & Transformation",
+    "category": "Life & Caution",
     "description": "'Time changes' — symbol of change and the dynamics of life. A reminder that nothing remains the same.",
     "proverb": "Mmere dane — 'times change'.",
     "countryFlag": "🇬🇭",
@@ -299,7 +299,7 @@
   "mmusuyidee": {
     "name": "Mmusuyidee",
     "image": "mmusuyidee.gif",
-    "category": "Good Fortune & Sanctity",
+    "category": "Faith & Spirituality",
     "description": "'That which removes bad luck' — symbol of good fortune, spiritual sanctity and the sanctification of the self and one's space.",
     "proverb": "Let evil pass away and let the good remain.",
     "countryFlag": "🇬🇭",
@@ -308,7 +308,7 @@
   "mpatapo": {
     "name": "Mpatapo",
     "image": "mpatapo.gif",
-    "category": "Peace & Reconciliation",
+    "category": "Life & Caution",
     "description": "'Knot of pacification / reconciliation' — symbol of peacemaking after strife, binding disputing parties back together.",
     "proverb": "A quarrel resolved is a knot retied stronger.",
     "countryFlag": "🇬🇭",
@@ -317,7 +317,7 @@
   "mpuannum": {
     "name": "Mpuannum",
     "image": "mpuannum.gif",
-    "category": "Leadership & Loyalty",
+    "category": "Leadership & Character",
     "description": "'Five tufts of hair' — a hairstyle associated with priestly office, symbol of loyalty, adroitness and sacred duty.",
     "proverb": "The priest is known by his crown of five tufts.",
     "countryFlag": "🇬🇭",
@@ -326,7 +326,7 @@
   "nea-onnim-no-sua-a-ohu": {
     "name": "Nea Onnim No Sua A Ohu",
     "image": "nea-onnim-no-sua-a-ohu.gif",
-    "category": "Wisdom & Knowledge",
+    "category": "Wisdom",
     "description": "'He who does not know can know from learning' — symbol of the lifelong pursuit of knowledge. There is no shame in ignorance, only in refusing to learn.",
     "proverb": "Nea onnim no sua a, ohu — 'one who does not know becomes knowledgeable by learning'.",
     "countryFlag": "🇬🇭",
@@ -335,7 +335,7 @@
   "nea-ope-se-obedi-hene": {
     "name": "Nea Ope Se Obedi Hene",
     "image": "nea-ope-se-obedi-hene.gif",
-    "category": "Leadership & Service",
+    "category": "Leadership & Character",
     "description": "'He who wants to be king' — symbol of service and the idea that true leadership is servitude to one's people.",
     "proverb": "He who would be chief must first serve.",
     "countryFlag": "🇬🇭",
@@ -344,7 +344,7 @@
   "nkonsonkonson": {
     "name": "Nkonsonkonson",
     "image": "nkonsonkonson.gif",
-    "category": "Unity & Human Relations",
+    "category": "Unity & Community",
     "description": "'Chain link' — symbol of unity, human relations and the inseparable bond of community. We are linked in life and in death.",
     "proverb": "A single chain is made of many links.",
     "countryFlag": "🇬🇭",
@@ -353,7 +353,7 @@
   "nkyimkyim": {
     "name": "Nkyimkyim",
     "image": "nkyimkyim.gif",
-    "category": "Initiative & Versatility",
+    "category": "Leadership & Character",
     "description": "'Twisted pattern' — symbol of initiative, dynamism and versatility. Life's journey is winding; one must adapt.",
     "proverb": "The road of life is never a straight line.",
     "countryFlag": "🇬🇭",
@@ -362,7 +362,7 @@
   "nkyimu": {
     "name": "Nkyimu",
     "image": "nkyimu.gif",
-    "category": "Skill & Precision",
+    "category": "Leadership & Character",
     "description": "'Crossed divisions' — symbol of skillfulness and precision. Refers to the cross-shaped preparatory markings made on cloth before stamping Adinkra symbols.",
     "proverb": "Precise work requires a steady hand.",
     "countryFlag": "🇬🇭",
@@ -371,7 +371,7 @@
   "nsaa": {
     "name": "Nsaa",
     "image": "nsaa.gif",
-    "category": "Excellence & Authenticity",
+    "category": "Leadership & Character",
     "description": "A type of rare, hand-woven blanket — symbol of excellence, genuineness and authenticity. 'One who does not know real nsaa buys an imitation.'",
     "proverb": "Nea onnim nsaa oto n'ago — 'he who does not know real nsaa buys the imitation'.",
     "countryFlag": "🇬🇭",
@@ -380,7 +380,7 @@
   "nsoromma": {
     "name": "Nsoromma",
     "image": "nsoromma.gif",
-    "category": "Faith & Guardianship",
+    "category": "Faith & Spirituality",
     "description": "'Child of the heavens' — the star. Symbol of guardianship and a reminder that we are all dependents of a higher providence.",
     "proverb": "We are all children of the sky.",
     "countryFlag": "🇬🇭",
@@ -389,7 +389,7 @@
   "nyame-biribi-wo-soro": {
     "name": "Nyame Biribi Wo Soro",
     "image": "nyame-biribi-wo-soro.gif",
-    "category": "Faith & Hope",
+    "category": "Faith & Spirituality",
     "description": "'God is in the heavens' — symbol of hope and the assurance that God will provide.",
     "proverb": "Nyame biribi wo soro, ma embeka me nsa — 'God, there is something in the heavens; let it reach me'.",
     "countryFlag": "🇬🇭",
@@ -407,7 +407,7 @@
   "nyame-nnwu-na-mawu": {
     "name": "Nyame Nnwu Na Mawu",
     "image": "nyame-nnwu-na-mawu.gif",
-    "category": "Faith & Immortality",
+    "category": "Faith & Spirituality",
     "description": "'God never dies, therefore I cannot die' — symbol of the immortality of the human soul, grounded in the everlasting nature of God.",
     "proverb": "Nyame nnwu na mawu — 'God does not die, so I shall not die'.",
     "countryFlag": "🇬🇭",
@@ -416,7 +416,7 @@
   "nyame-nti": {
     "name": "Nyame Nti",
     "image": "nyame-nti.gif",
-    "category": "Faith & Trust",
+    "category": "Faith & Spirituality",
     "description": "'By God's grace' / 'because of God' — symbol of faith and trust in the divine.",
     "proverb": "Nyame nti mennwe wira — 'by God's grace, I do not eat chaff'.",
     "countryFlag": "🇬🇭",
@@ -425,7 +425,7 @@
   "nyame-ye-ohene": {
     "name": "Nyame Ye Ohene",
     "image": "nyame-ye-ohene.gif",
-    "category": "Faith & Sovereignty",
+    "category": "Faith & Spirituality",
     "description": "'God is King' — symbol of the majesty and supremacy of God above all earthly rulers.",
     "proverb": "Nyame ye ohene — 'God is the King'.",
     "countryFlag": "🇬🇭",
@@ -434,7 +434,7 @@
   "nyansapo": {
     "name": "Nyansapo",
     "image": "nyansapo.gif",
-    "category": "Wisdom & Ingenuity",
+    "category": "Wisdom",
     "description": "'The wisdom knot' — symbol of wisdom, ingenuity, intelligence and patience. 'A wise person has the capacity to choose the best means to attain a goal.'",
     "proverb": "Nyansapo wosane no badwemma — 'only the wise can untie the wisdom knot'.",
     "countryFlag": "🇬🇭",
@@ -443,7 +443,7 @@
   "odon-nyera-fie-kwan": {
     "name": "Odo Nyera Fie Kwan",
     "image": "odon-nyera-fie-kwan.gif",
-    "category": "Love & Devotion",
+    "category": "Love & Relationships",
     "description": "'Love never loses its way home' — symbol of the power and constancy of love to find its way back.",
     "proverb": "Odo nyera fie kwan — 'love never loses the road home'.",
     "countryFlag": "🇬🇭",
@@ -452,7 +452,7 @@
   "okodee-mwowere": {
     "name": "Okodee Mmowere",
     "image": "okodee-mwowere.gif",
-    "category": "Strength & Bravery",
+    "category": "Courage & Strength",
     "description": "'Talons of the eagle' — symbol of strength, bravery and power. The eagle is one of the mightiest birds in Akan lore.",
     "proverb": "The eagle's talons are the measure of its strength.",
     "countryFlag": "🇬🇭",
@@ -461,7 +461,7 @@
   "onyankopon-adom-nti-biribiara-beye-yie": {
     "name": "Onyankopon Adom Nti Biribiara Beye Yie",
     "image": "onyankopon-adom-nti-biribiara-beye-yie.gif",
-    "category": "Faith & Providence",
+    "category": "Faith & Spirituality",
     "description": "'By God's grace, all will be well' — symbol of hope, providence and faith that whatever the circumstance, God's mercy sees us through.",
     "proverb": "Onyankopon adom nti biribiara beye yie — 'by God's grace, all shall be well'.",
     "countryFlag": "🇬🇭",
@@ -470,7 +470,7 @@
   "osram-ne-nsoromma": {
     "name": "Osram Ne Nsoromma",
     "image": "osram-ne-nsoromma.gif",
-    "category": "Love & Faithfulness",
+    "category": "Love & Relationships",
     "description": "'The moon and the star' — symbol of love, faithfulness and harmony. As the star waits for the moon, lovers remain faithful to one another.",
     "proverb": "Kyekye pe aware — 'the north star has a deep love for marriage; she is always in the sky awaiting the return of the moon'.",
     "countryFlag": "🇬🇭",
@@ -479,7 +479,7 @@
   "owo-foro-adobe": {
     "name": "Owo Foro Adobe",
     "image": "owo-foro-adobe.gif",
-    "category": "Perseverance & Prudence",
+    "category": "Courage & Strength",
     "description": "'Snake climbing the raffia tree' — symbol of steadfastness, prudence and diligence in undertaking a difficult task.",
     "proverb": "To climb the raffia tree, even the snake must plan.",
     "countryFlag": "🇬🇭",
@@ -488,7 +488,7 @@
   "owuo-atwedee": {
     "name": "Owuo Atwedee",
     "image": "owuo-atwedee.gif",
-    "category": "Mortality",
+    "category": "Life & Caution",
     "description": "'The ladder of death' — symbol of mortality. 'Everyone will climb the ladder of death' — all must reckon with their end.",
     "proverb": "Owuo atwedee, obaakofo mforo — 'the ladder of death is not climbed by only one person'.",
     "countryFlag": "🇬🇭",
@@ -497,7 +497,7 @@
   "pempamsie": {
     "name": "Pempamsie",
     "image": "pempamsie.gif",
-    "category": "Readiness & Resolve",
+    "category": "Courage & Strength",
     "description": "'Sew in readiness' — symbol of steadfastness, hardness and readiness. A people prepared are a people unshaken.",
     "proverb": "Pempamsie — 'that which is sewn is ready'.",
     "countryFlag": "🇬🇭",
@@ -506,7 +506,7 @@
   "sankofa": {
     "name": "Sankofa",
     "image": "sankofa.gif",
-    "category": "Learning from the Past",
+    "category": "Life & Caution",
     "description": "'Go back and fetch it' — symbol of the wisdom of learning from the past to build for the future. 'It is not wrong to go back for what you have forgotten.'",
     "proverb": "Se wo were fi na wosankofa a yenkyi — 'it is not a taboo to go back and retrieve what you have forgotten'.",
     "countryFlag": "🇬🇭",
@@ -515,7 +515,7 @@
   "sankofa1": {
     "name": "Sankofa (heart variant)",
     "image": "sankofa1.gif",
-    "category": "Learning from the Past",
+    "category": "Life & Caution",
     "description": "Alternate, heart-shaped variant of Sankofa. Same meaning: return and retrieve what was lost; draw on the past to inform the future.",
     "proverb": "Se wo were fi na wosankofa a yenkyi — 'it is not wrong to go back for what you have forgotten'.",
     "countryFlag": "🇬🇭",
@@ -524,7 +524,7 @@
   "sesa-wo-suban": {
     "name": "Sesa Wo Suban",
     "image": "sesa-wo-suban.gif",
-    "category": "Change & Transformation",
+    "category": "Life & Caution",
     "description": "'Change or transform your character' — symbol of life transformation. One is not bound to the ways of the past; character can be remade.",
     "proverb": "Sesa wo suban — 'change your character'.",
     "countryFlag": "🇬🇭",
@@ -533,7 +533,7 @@
   "tamfo-bebre": {
     "name": "Tamfo Bebre",
     "image": "tamfo-bebre.gif",
-    "category": "Warning & Caution",
+    "category": "Life & Caution",
     "description": "'The enemy will stew in his own juice' — symbol against jealousy and envy. The ill-wisher is ultimately consumed by their own malice.",
     "proverb": "Tamfo bebre — 'the envious one will suffer'.",
     "countryFlag": "🇬🇭",
@@ -542,7 +542,7 @@
   "wawa-aba": {
     "name": "Wawa Aba",
     "image": "wawa-aba.gif",
-    "category": "Hardiness & Perseverance",
+    "category": "Courage & Strength",
     "description": "'Seed of the wawa tree' — symbol of hardiness, toughness and perseverance. The wawa seed is extremely hard to crack.",
     "proverb": "He who is as tough as the wawa seed endures.",
     "countryFlag": "🇬🇭",
@@ -551,7 +551,7 @@
   "wo-sa-da-mu-a": {
     "name": "Wo Sa Da Mu A",
     "image": "wo-sa-da-mu-a.gif",
-    "category": "Consequence & Responsibility",
+    "category": "Life & Caution",
     "description": "'If you dance to the song in the middle' — symbol of accepting consequences of one's actions and the way life's rhythms require us to move with them.",
     "proverb": "To dance in the middle, you must know the song.",
     "countryFlag": "🇬🇭",
@@ -560,7 +560,7 @@
   "woforo-dua-pa-a": {
     "name": "Woforo Dua Pa A",
     "image": "woforo-dua-pa-a.gif",
-    "category": "Support & Encouragement",
+    "category": "Unity & Community",
     "description": "'When you climb a good tree' — symbol of encouragement and mutual support. When you work for a good cause, others will push you up.",
     "proverb": "Woforo dua pa a, na yepia wo — 'when you climb a good tree, you are given a push'.",
     "countryFlag": "🇬🇭",
