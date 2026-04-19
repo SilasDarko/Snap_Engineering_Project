@@ -50,12 +50,12 @@ function showCards(symbols) {
 
   for (const symbol of Object.values(symbols)) {
     const nextCard = templateCard.cloneNode(true);
-    editCardContent(nextCard, symbol.name, "src/symbols/" + symbol.image);
+    editCardContent(nextCard, symbol.name, "src/symbols/" + symbol.image, symbol.description, symbol.proverb, symbol.category, symbol.countryFlag);
     cardContainer.appendChild(nextCard);
   }
 }
 
-function editCardContent(card, newTitle, newImageURL) {
+function editCardContent(card, newTitle, newImageURL, description, proverb, category, countryFlag) {
   card.style.display = "block";
 
   const cardHeader = card.querySelector("h2");
@@ -64,6 +64,11 @@ function editCardContent(card, newTitle, newImageURL) {
   const cardImage = card.querySelector("img");
   cardImage.src = newImageURL;
   cardImage.alt = newTitle + " Poster";
+
+  const listItems = card.querySelectorAll("li");
+  listItems[0].textContent = description;
+  listItems[1].textContent = proverb;
+  listItems[2].textContent = "Category: " + category;
 
   // You can use console.log to help you debug!
   // View the output by right clicking on your website,
