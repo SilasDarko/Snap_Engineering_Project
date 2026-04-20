@@ -1,8 +1,13 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Adinkra Symbols</title>
     <meta name="description" content="A Catalog of Adinkra Symbols" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Lato:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="scripts.js"></script>
   </head>
@@ -10,28 +15,36 @@
   <body>
     <header class="main-header">
       <h1 class="title">Adinkra Symbols</h1>
+      <p class="subtitle">Sacred symbols of the Akan people of West Africa</p>
     </header>
-    <div id="filter-container">
-      <select id="category-filter" onchange="filterCards()">
-        <option value="All">All Categories</option>
-      </select>
-    </div>
-    <div id="card-container"></div>
-    <div class="card" style="display: none">
-      <div class="card-content">
-        <h2>TV Show Title</h2>
-        <span class="country-flag"></span>
-        <img src="" alt="TV Show Poster" />
-        <ul>
-          <li>Bullet Point 1</li>
-          <li>Bullet Point 2</li>
-          <li>Bullet Point 3</li>
-        </ul>
+
+    <main>
+      <div id="filter-container">
+        <label for="category-filter">Filter by Category</label>
+        <select id="category-filter" onchange="filterCards()">
+          <option value="All">All Categories</option>
+        </select>
       </div>
-    </div>
-    <div class="footer">
+
+      <div id="card-container"></div>
+
+      <div class="card" style="display: none">
+        <div class="card-content">
+          <h2>TV Show Title</h2>
+          <span class="country-flag"></span>
+          <img src="" alt="TV Show Poster" />
+          <ul>
+            <li>Bullet Point 1</li>
+            <li>Bullet Point 2</li>
+            <li>Bullet Point 3</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
       <button onclick="quoteAlert()">Get A Quote!</button>
       <button onclick="removeLastCard()">Remove A Card!</button>
-    </div>
+    </footer>
   </body>
 </html>
