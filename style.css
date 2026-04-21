@@ -108,7 +108,8 @@ main {
   white-space: nowrap;
 }
 
-#category-filter {
+#category-filter,
+#sort-filter {
   padding: 10px 40px 10px 16px;
   font-size: 15px;
   font-family: var(--font-body);
@@ -124,7 +125,8 @@ main {
   background-position: right 14px center;
 }
 
-#category-filter:focus {
+#category-filter:focus,
+#sort-filter:focus {
   outline: none;
   border-color: var(--gold);
   box-shadow: 0 0 0 3px rgba(201, 148, 26, 0.2);

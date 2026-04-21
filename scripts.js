@@ -152,20 +152,17 @@ function searchCards() {
   showCards(results)
 }
 
-// Open the add symbol modal
 function openModal() {
   const modal = document.getElementById("add-symbol-modal")
   modal.classList.add("open")
 }
 
-// Close the modal and clear the form
 function closeModal() {
   const modal = document.getElementById("add-symbol-modal")
   modal.classList.remove("open")
   document.getElementById("symbol-form").reset()
 }
 
-// Read the form, create a new symbol, and add it to the page
 function addSymbol(event) {
   event.preventDefault()
 
@@ -186,9 +183,25 @@ function addSymbol(event) {
     country: "Ghana"
   }
 
-  allSymbols.push(newSymbol)
+  allSymbols.unshift(newSymbol)
   showCards(allSymbols)
   closeModal()
+}
+
+function sortCards() {
+  const sortOrder = document.getElementById("sort-filter").value
+
+  if (sortOrder === "a-z") {
+    allSymbols.sort(function(a, b) {
+      return a.name.localeCompare(b.name)
+    })
+  } else if (sortOrder === "z-a") {
+    allSymbols.sort(function(a, b) {
+      return b.name.localeCompare(a.name)
+    })
+  }
+
+  filterCards()
 }
 
 function removeLastCard() {

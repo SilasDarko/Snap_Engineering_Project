@@ -25,6 +25,11 @@
           <select id="category-filter" onchange="filterCards()">
             <option value="All">All Categories</option>
           </select>
+          <select id="sort-filter" onchange="sortCards()">
+            <option value="default">Sort</option>
+            <option value="a-z">A – Z</option>
+            <option value="z-a">Z – A</option>
+          </select>
         </div>
         <div class="filter-right">
           <input type="text" id="search-input" placeholder="Search symbols..." oninput="searchCards()" />
