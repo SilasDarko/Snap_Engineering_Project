@@ -36,19 +36,64 @@ async function getImages() {
   return await res.json()
 }
 
+// Store all symbols here so other functions can use them
+let allSymbols = [];
+
 async function buildData() {
   const symbols = await getSymbols()
-  showCards(symbols)
+  allSymbols = Object.values(symbols)
+  populateCategories()
+  showCards(allSymbols)
 }
 
 buildData()
+
+// Add each category as an option in the dropdown
+function populateCategories() {
+  const select = document.getElementById("category-filter")
+  const categories = []
+
+  for (const symbol of allSymbols) {
+    if (!categories.includes(symbol.category)) {
+      categories.push(symbol.category)
+    }
+  }
+
+  categories.sort()
+
+  for (const category of categories) {
+    const option = document.createElement("option")
+    option.value = category
+    option.textContent = category
+    select.appendChild(option)
+  }
+}
+
+// Show only the cards that match the selected category
+function filterCards() {
+  const selectedCategory = document.getElementById("category-filter").value
+
+  if (selectedCategory === "All") {
+    showCards(allSymbols)
+    return
+  }
+
+  const filtered = []
+  for (const symbol of allSymbols) {
+    if (symbol.category === selectedCategory) {
+      filtered.push(symbol)
+    }
+  }
+
+  showCards(filtered)
+}
 
 function showCards(symbols) {
   const cardContainer = document.getElementById("card-container");
   cardContainer.innerHTML = "";
   const templateCard = document.querySelector(".card");
 
-  for (const symbol of Object.values(symbols)) {
+  for (const symbol of symbols) {
     const nextCard = templateCard.cloneNode(true);
     editCardContent(nextCard, symbol.name, "src/symbols/" + symbol.image, symbol.description, symbol.proverb, symbol.category, symbol.countryFlag);
     cardContainer.appendChild(nextCard);
@@ -64,7 +109,7 @@ function editCardContent(card, newTitle, newImageURL, description, proverb, cate
   const cardImage = card.querySelector("img");
   cardImage.src = newImageURL;
   cardImage.alt = newTitle + " Poster";
-  
+
   card.querySelector(".country-flag").textContent = countryFlag;
 
   const listItems = card.querySelectorAll("li");
@@ -88,6 +133,6 @@ function quoteAlert() {
 }
 
 function removeLastCard() {
-  titles.pop(); // Remove last item in titles array
-  showCards(); // Call showCards again to refresh
+  allSymbols.pop()
+  showCards(allSymbols)
 }
