@@ -95,7 +95,8 @@ function showCards(symbols) {
 
   for (const symbol of symbols) {
     const nextCard = templateCard.cloneNode(true);
-    editCardContent(nextCard, symbol.name, "src/symbols/" + symbol.image, symbol.description, symbol.proverb, symbol.category, symbol.countryFlag);
+    const imageURL = symbol.imageURL || "src/symbols/" + symbol.image
+    editCardContent(nextCard, symbol.name, imageURL, symbol.description, symbol.proverb, symbol.category, symbol.countryFlag);
     cardContainer.appendChild(nextCard);
   }
 }
@@ -149,6 +150,45 @@ function searchCards() {
   }
 
   showCards(results)
+}
+
+// Open the add symbol modal
+function openModal() {
+  const modal = document.getElementById("add-symbol-modal")
+  modal.classList.add("open")
+}
+
+// Close the modal and clear the form
+function closeModal() {
+  const modal = document.getElementById("add-symbol-modal")
+  modal.classList.remove("open")
+  document.getElementById("symbol-form").reset()
+}
+
+// Read the form, create a new symbol, and add it to the page
+function addSymbol(event) {
+  event.preventDefault()
+
+  const name = document.getElementById("new-name").value
+  const category = document.getElementById("new-category").value
+  const description = document.getElementById("new-description").value
+  const proverb = document.getElementById("new-proverb").value
+  const imageFile = document.getElementById("new-image").files[0]
+  const imageURL = URL.createObjectURL(imageFile)
+
+  const newSymbol = {
+    name: name,
+    category: category,
+    description: description,
+    proverb: proverb,
+    imageURL: imageURL,
+    countryFlag: "🇬🇭",
+    country: "Ghana"
+  }
+
+  allSymbols.push(newSymbol)
+  showCards(allSymbols)
+  closeModal()
 }
 
 function removeLastCard() {

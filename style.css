@@ -257,6 +257,22 @@ main {
   letter-spacing: 0.08em;
 }
 
+.form-group input[type="file"] {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: var(--font-body);
+  border-radius: 8px;
+  border: 2px dashed var(--card-border);
+  color: var(--text-muted);
+  background: var(--bg);
+  cursor: pointer;
+  transition: border-color var(--transition);
+}
+
+.form-group input[type="file"]:hover {
+  border-color: var(--gold);
+}
+
 .form-group input,
 .form-group select,
 .form-group textarea {
