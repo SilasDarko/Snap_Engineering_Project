@@ -144,7 +144,7 @@ function searchCards() {
 
   const results = []
   for (const symbol of allSymbols) {
-    if (symbol.name.includes(searchText)) {
+    if (symbol.name.toLowerCase().includes(searchText.toLowerCase())) {
       results.push(symbol)
     }
   }
