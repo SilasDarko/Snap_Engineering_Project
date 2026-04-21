@@ -20,10 +20,16 @@
 
     <main>
       <div id="filter-container">
-        <label for="category-filter">Filter by Category</label>
-        <select id="category-filter" onchange="filterCards()">
-          <option value="All">All Categories</option>
-        </select>
+        <div class="filter-left">
+          <label for="category-filter">Filter by Category</label>
+          <select id="category-filter" onchange="filterCards()">
+            <option value="All">All Categories</option>
+          </select>
+        </div>
+        <div class="filter-right">
+          <input type="text" id="search-input" placeholder="Search symbols..." />
+          <button id="add-symbol-btn">+ Add Symbol</button>
+        </div>
       </div>
 
       <div id="card-container"></div>
@@ -41,6 +47,51 @@
         </div>
       </div>
     </main>
+
+    <!-- Add Symbol Modal -->
+    <div class="modal-overlay" id="add-symbol-modal">
+      <div class="modal">
+        <div class="modal-header">
+          <h2>Add a Symbol</h2>
+          <button class="modal-close" id="close-modal">✕</button>
+        </div>
+        <form class="symbol-form" id="symbol-form">
+          <div class="form-group">
+            <label for="new-name">Symbol Name</label>
+            <input type="text" id="new-name" placeholder="e.g. Adinkrahene" />
+          </div>
+          <div class="form-group">
+            <label for="new-category">Category</label>
+            <select id="new-category">
+              <option value="">Select a category</option>
+              <option>Courage & Strength</option>
+              <option>Faith & Spirituality</option>
+              <option>Leadership & Character</option>
+              <option>Life & Caution</option>
+              <option>Love & Relationships</option>
+              <option>Unity & Community</option>
+              <option>Wisdom</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="new-description">Description</label>
+            <textarea id="new-description" rows="3" placeholder="Describe what this symbol means..."></textarea>
+          </div>
+          <div class="form-group">
+            <label for="new-proverb">Proverb</label>
+            <input type="text" id="new-proverb" placeholder="Associated proverb or saying..." />
+          </div>
+          <div class="form-group">
+            <label for="new-image">Image URL</label>
+            <input type="text" id="new-image" placeholder="e.g. src/symbols/mysymbol.gif" />
+          </div>
+          <div class="form-actions">
+            <button type="button" id="cancel-btn">Cancel</button>
+            <button type="submit" id="submit-btn">Add Symbol</button>
+          </div>
+        </form>
+      </div>
+    </div>
 
     <footer class="footer">
       <button onclick="quoteAlert()">Get A Quote!</button>
