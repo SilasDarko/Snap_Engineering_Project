@@ -132,6 +132,25 @@ function quoteAlert() {
   );
 }
 
+// Search symbols by name as the user types
+function searchCards() {
+  const searchText = document.getElementById("search-input").value
+
+  if (searchText === "") {
+    showCards(allSymbols)
+    return
+  }
+
+  const results = []
+  for (const symbol of allSymbols) {
+    if (symbol.name.includes(searchText)) {
+      results.push(symbol)
+    }
+  }
+
+  showCards(results)
+}
+
 function removeLastCard() {
   allSymbols.pop()
   showCards(allSymbols)
